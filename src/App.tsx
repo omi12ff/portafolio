@@ -507,18 +507,18 @@ function App() {
             <article className="project-card">
               <div className="project-image-container">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/portafolio.png`}
-                  alt="Captura real de mi portafolio profesional"
+                  src={`${import.meta.env.BASE_URL}images/portafolio-sobre-mi.png`}
+                  alt="Captura de la sección Sobre mí del portafolio profesional"
                   className="project-screenshot"
-                  width="1440"
-                  height="1000"
+                  width="1547"
+                  height="769"
                   loading="lazy"
                 />
               </div>
 
               <div className="project-content">
                 <span className="project-category">
-                  PROYECTO PERSONAL · EN DESARROLLO
+                  PROYECTO PERSONAL
                 </span>
 
                 <h3>Portafolio profesional</h3>

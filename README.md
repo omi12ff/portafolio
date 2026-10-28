@@ -4,7 +4,7 @@ Portafolio académico de marca personal para presentar mi perfil, formación, pr
 
 [Ver la web](https://omi12ff.github.io/portafolio/) · [Repositorio](https://github.com/omi12ff/portafolio)
 
-![Vista de la portada del portafolio de Osmar Duarte](public/images/portafolio.png)
+![Vista de la sección Sobre mí del portafolio de Osmar Duarte](public/images/portafolio-sobre-mi.png)
 
 ## Contenido
 
