@@ -1,0 +1,87 @@
+﻿:root {
+  font-family: 'Segoe UI Variable Display', 'Segoe UI', Arial, sans-serif;
+  color: #edf4ff;
+  background: #080f1b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #080f1b;
+  --surface: #0e1b2c;
+  --surface-raised: #13243a;
+  --line: #26394e;
+  --text: #edf4ff;
+  --muted: #a9b9ce;
+  --accent: #38bdf8;
+  --accent-light: #a4e3ff;
+  --font-mono: 'Cascadia Code', Consolas, monospace;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+body, button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+button, a {
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent-light);
+  outline-offset: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  color: #06111d;
+  background: #8bdcff;
+}
+
+[id] {
+  scroll-margin-top: 110px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
